@@ -18,9 +18,9 @@ Git 会把工作目录的内容恢复为检出某分支时，它所指向的那�
 - 查看所有分支：git branch -v
 - 已被并入当前分支的分支：$ git branch --merged
 - 尚未合并的分支:git branch --no-merged
-##多人开发
+##多人开发例子
 他人：修改tryagain,已经push了
 自己：修改tryagain,readme,增加text1，push时提示出错
 所以应该先pull，但由于修改了同一文件tryagain，所以pull时，自动merge失败，需手动合并。
-打开目录下的tryagain文件，修改后保存
+打开目录下的tryagain文件，修改后保存，git add,git commit,git push即可
 
