@@ -1,13 +1,3 @@
-## 远程仓库
-- 查看远程仓库：$git remote -v
-- 添加远程仓库：$git remote add pb https://github.com/paulboone/ticgit
-- 抓取本地库没有的信息：
-	- $git fetch pb（需手动合并）
-	- $git pull pb（自动合并到当前分支，常用）
-- 推送数据到远程仓库：$git push [remote名] [branch名]
-**注意**：如果 push 前有他人已经推送了更新，则你的推送会被驳回。此时必须先把他人的更新抓取到本地，并入自己的项目，再推送。
-
-
 ## 分支
 - 新建分支：git branch 分支名
 - 切换到该分支：git checkout 分支名
@@ -28,3 +18,4 @@ Git 会把工作目录的内容恢复为检出某分支时，它所指向的那�
 - 查看所有分支：git branch -v
 - 已被并入当前分支的分支：$ git branch --merged
 - 尚未合并的分支:git branch --no-merged
+##多人开发
